@@ -1,7 +1,7 @@
 ;; common
 
 const op::transfer = 0xf8a7ea5;
-const op::transfer_notification = 0x7362d09c;
+;; const op::transfer_notification = 0x7362d09c;
 const op::internal_transfer = 0x178d4519;
 const op::excesses = 0xd53276db;
 const op::burn = 0x595f07bc;
@@ -18,7 +18,7 @@ const error::not_owner = 73;
 const error::not_valid_wallet = 74;
 const error::wrong_workchain = 333;
 
-;; jetton-minter
+;; usdr-master
 
 const op::mint = 0x642b7d07;
 const op::change_admin = 0x6501f354;
@@ -26,8 +26,9 @@ const op::claim_admin = 0xfb88e119;
 const op::upgrade = 0x2508d66a;
 const op::call_to = 0x235caf52;
 const op::change_metadata_uri = 0xcb862902;
+const op::transfer_notification = 0x7362d09c;
 
-;; jetton-wallet
+;; usdr-minter
 
 const op::set_status = 0xeed236d3;
 
